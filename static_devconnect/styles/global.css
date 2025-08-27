@@ -27,8 +27,6 @@
     --tamanho-fonte-sm: 14px;
 }
 
-
-
 * {
     padding: 0;
     margin: 0;
@@ -36,12 +34,41 @@
     font-family: "Segoe UI", sans-serif;
 
 }
+
 body {
     background-color: var(--cor-cinza-medio);
 }
 
-h1{
+h1 {
     position: absolute;
     z-index: -1;
     opacity: 0;
+}
+
+/* formulario */
+.formulario-botao-marrow {
+    background-color: var(--cor-marrow);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+
+    color: var(--cor-branco);
+    font-size: var(--tamanho-fonte-sm);
+}
+
+.formulario-campos>input {
+    border: var(--borda);
+    height: 35px;
+    background-color: var(--cor-cinza-medio);
+
+    color: var(--cor-cinza-medio);
+    font-size: var(--tamanho-fonte-sm);
+    border-radius: var(--borda-arredondada);
+}
+
+
+.formulario-campos >label{
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+    font-weight: 600;
 }
