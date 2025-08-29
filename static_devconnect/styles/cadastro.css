@@ -81,17 +81,3 @@ main>div>p {
     justify-content: center;
     gap: 10px;
 }
-
-#campo-upload{
-    display: none;
-}
-
-#texto-upload{
-    display: inline-block;
-    width: 100%;
-    padding: 10px;
-    background-color: var(--cor-amareloclaro);
-    text-align: center;
-
-    color: var(--cor-cinza);
-}
