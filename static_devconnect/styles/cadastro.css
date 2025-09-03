@@ -44,7 +44,8 @@ form>p {
     color: var(--cor-cinza);
 }
 
-form>a,#secao-cadastro > p >a {
+form>a,
+#secao-cadastro>p>a {
     color: var(--cor-marrow);
     font-size: var(--tamanho-fonte-sm);
     text-decoration: none;
@@ -77,7 +78,5 @@ main>div>p {
 #secao-instalacao {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    flex-wrap: 10px;
 }
