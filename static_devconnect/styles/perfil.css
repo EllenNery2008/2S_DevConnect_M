@@ -1,0 +1,64 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#perfil {
+   width: 90%;
+}
+
+.foto-perfil-bio{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+}
+
+
+.dados-perfil {
+    background-color: #DDD6C8;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.informacoes {
+    background-color: #DDD6C8;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.informacoes>div {
+    background-color: #DDD6C8;
+    display: flex;
+    gap: 50px;
+}
+
+.info {
+ text-decoration: none;
+}
+
+.subtitulo-publicacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#criar-publi{
+    padding: 10px;
+}
+
+.estilo-formulario {
+    width: 100%;
+    background-color: var(--cor-branco);
+    border: var(--borda);
+}

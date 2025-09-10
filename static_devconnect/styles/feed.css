@@ -96,7 +96,7 @@ main {
 
 /* secao publicacoes */
 #publicacoes {
-    background-color: chocolate;
+
     width: 100%;
 }
 
@@ -119,9 +119,10 @@ main {
     text-transform: lowercase;
 }
 
-.card-publi>figure{
+.card-publi>figure {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .imagem-publicacao {
@@ -155,18 +156,18 @@ main {
     justify-content: space-between;
     /* gap */
     order: 1;
-  margin-left: 15px;
-  margin-top: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
 
 }
 
-.interacoes-publicacao > button{
+.interacoes-publicacao>button {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
-.card-publi>figure>button{
+.card-publi>figure>button {
     background-color: transparent;
     border: none;
 
@@ -178,4 +179,3 @@ main {
     margin-left: 15px;
 
 }
-
