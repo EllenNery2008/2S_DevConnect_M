@@ -6,6 +6,7 @@ main {
     margin-top: 20px;
     flex-direction: column;
     gap: 20px;
+    background-color:#DDD6C8;
 }
 
 #perfil {
@@ -54,11 +55,15 @@ border-radius: 50%;
 }
 
 #criar-publi{
-    padding: 10px;
+    padding: 10px
 }
 
 .estilo-formulario {
     width: 100%;
-    background-color: var(--cor-branco);
-    border: var(--borda);
+    border: var(--borda--);
+}
+
+.card-publi{
+    padding: 10px;
+    background-color: rgb(226, 43, 198);
 }
