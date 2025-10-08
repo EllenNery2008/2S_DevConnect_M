@@ -1,0 +1,11 @@
+--DQL
+
+id ('usuario') PRIMARY KEY
+
+nome_completo NVARCHAR('255'), NOT NULL
+
+nome_usuario  NVARCHAR('50') UNIQUE NOT NULL
+
+email - NVARCHAR(255)UNIQUE NOT NULL
+
+senha - NVARCHAR(50)NOT NULL
