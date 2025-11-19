@@ -21,7 +21,7 @@ border-radius: 50%;
 
 
 .dados-perfil {
-    background-color: #DDD6C8;
+    background-color:#DDD6C8;
     display: flex;
     align-items: center;
     width: 100%;
@@ -63,7 +63,14 @@ border-radius: 50%;
     border: var(--borda--);
 }
 
-.card-publi{
+.card-publi {
     padding: 10px;
-    background-color: rgb(226, 43, 198);
+    background-color: #A49273;
+    margin:10px;
+    
+}
+
+.interacoes-publicacao>button,button {
+    background-color: transparent;
+    border: none;
 }

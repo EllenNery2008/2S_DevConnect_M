@@ -11,7 +11,7 @@
 :root {
     --cor-preto: #000000;
     --cor-cinza: #A1A99D;
-    --cor-marrow: #A49273;
+    --cor-marrow: #a49170;
     --cor-amareloclaro: #E1DDAD;
     --cor-amarelo: #F9F2A7;
     --cor-branco: #FFFFFF;
@@ -19,7 +19,7 @@
     --cor-cinza-claro: #D9D9D9;
     --cor-cinza-clarinho: #EEEEEE;
     --cor-marrow-claro:#DDD6C8;
-
+    --cor-marrow-escuro:#A49273;
 
     --borda: 1px solid var(--cor-cinza-medio);
     --borda-arredondada: 2px;
@@ -151,7 +151,7 @@ h1 {
 }
 
 /* RESPONSIVO*/
-@media only screen and (max-widht: 500px) {
+@media only screen and (max-width: 500px) {
     #logo-mobile {
         display: initial;
     }
